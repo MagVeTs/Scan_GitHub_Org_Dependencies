@@ -7,7 +7,7 @@ An automation wrapper for the `SBOM Threat Matcher` (https://github.com/MagVeTs/
     1.  Attempts to download a full **Dependency Graph SBOM**.
     2.  If unavailable, downloads `package-lock.json` (Deep scan).
     3.  If unavailable, downloads `package.json` (Shallow scan).
-* **Reporting:** distinct color-coded output and a final summary report of affected repositories.
+* **Reporting:** distinct color-coded output and a final summary report (`.log` file) of affected repositories.
 
 ## Usage
 

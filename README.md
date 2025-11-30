@@ -1,5 +1,5 @@
 # scan_github_org_dependencies
-An automation wrapper for the `SBOM Threat Matcher` that scans an entire GitHub organization or user account.
+An automation wrapper for the `SBOM Threat Matcher` (https://github.com/MagVeTs/SBOM_Threat_Matcher) that scans an entire GitHub organization or user account.
 
 ## Features
 * **Auto-Discovery:** Fetches all non-archived repositories from the target account.
@@ -27,7 +27,7 @@ An automation wrapper for the `SBOM Threat Matcher` that scans an entire GitHub 
 
 - Python 3: To run the underlying `sbom_threat_matcher.py` script.
 
-- `sbom_threat_matcher.py` (found here:
+- `sbom_threat_matcher.py` (found here: https://github.com/MagVeTs/SBOM_Threat_Matcher)
 
 - List of compromised or vulnerable packages/dependencies stored as .txt file
 

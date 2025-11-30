@@ -113,9 +113,9 @@ for REPO in $REPOS; do
             echo "-------------------" >> "$REPORT_FILE"
             ((INFECTED_COUNT++))
         else
-            echo -e "${GREEN}   ✅ Clean${NC}"
-        fi
-        
+           echo -e "${GREEN}   ✅ Clean${NC}"
+           echo "repo: $REPO ($SOURCE_TYPE) - CLEAN" >> "$REPORT_FILE"
+        fi        
         ((TOTAL_SCANNED++))
     else
         echo -e "${YELLOW}   ⚠️  Skipped: No SBOM, package-lock, or package.json found.${NC}"

@@ -31,7 +31,9 @@ An automation wrapper for the `SBOM Threat Matcher` (https://github.com/MagVeTs/
 
 - List of compromised or vulnerable packages/dependencies stored as `.txt` file
 
+## Contributors
 
+- [MagVeTs](https://github.com/MagVeTs)
 
 
 

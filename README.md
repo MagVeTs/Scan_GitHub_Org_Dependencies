@@ -1,4 +1,4 @@
-# scan_github_org_dependencies
+# Scan GitHub Org Dependencies
 An automation wrapper for the `SBOM Threat Matcher` (https://github.com/MagVeTs/SBOM_Threat_Matcher) that scans an entire GitHub organization or user account.
 
 ## Features
